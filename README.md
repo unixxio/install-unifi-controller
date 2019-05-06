@@ -1,6 +1,6 @@
 # Install Ubiquiti UniFi Controller on Debian or Ubuntu
 
-This script will help you install Ubiquiti UniFi Controller on Debian. Change unifi.yourdomain.com accordingly. It will:
+This script will help you install Ubiquiti UniFi Controller on Debian. Change `unifi.yourdomain.com` accordingly. It will:
 
 * Install Nginx (with Let's Encrypt support)
 
