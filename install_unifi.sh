@@ -41,7 +41,7 @@ esac
 # install nginx with let's encrypt support
 apt-get install python-certbot-nginx -y > /dev/null 2>&1
 
-# add ubiquti repository
+# add ubiquiti repository
 echo 'deb http://www.ui.com/downloads/unifi/debian stable ubiquiti' > /etc/apt/sources.list.d/100-ubnt-unifi.list
 wget -q -O /etc/apt/trusted.gpg.d/unifi-repo.gpg https://dl.ui.com/unifi/unifi-repo.gpg
 
